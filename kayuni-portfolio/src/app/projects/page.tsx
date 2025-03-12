@@ -14,10 +14,10 @@ export default function ProjectsPage() {
       <section className="pt-20 pb-16 md:pt-24 md:pb-20 bg-gray-100 dark:bg-gray-900">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center">
-            <h1 className="text-3xl md:text-5xl font-bold mb-4">My Projects</h1>
+            <h1 className="text-3xl md:text-5xl font-bold mb-4">Featured Work</h1>
             <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
             <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              A showcase of my work in software development, data engineering, and more.
+            A selection of my public projects. Additional professional work is available upon request.
             </p>
           </div>
         </div>

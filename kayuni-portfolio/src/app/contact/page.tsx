@@ -103,28 +103,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
-      {/* Map Section */}
-      <section className="py-16 md:py-24 bg-gray-100 dark:bg-gray-900">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold">My Location</h2>
-            <div className="w-20 h-1 bg-primary mx-auto mt-4 mb-6"></div>
-            <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Based in Bowling Green, Kentucky, but available for remote work worldwide.
-            </p>
-          </div>
-          
-          <div className="aspect-video w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg">
-            {/* This would be a placeholder for an actual map */}
-            <div className="w-full h-full bg-gray-300 dark:bg-gray-800 flex items-center justify-center">
-              <p className="text-gray-600 dark:text-gray-400">
-                Map placeholder - Bowling Green, Kentucky
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

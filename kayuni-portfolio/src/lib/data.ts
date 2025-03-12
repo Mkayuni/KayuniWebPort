@@ -146,28 +146,24 @@ export interface Project {
   ];
   
   // Skills data
-  export const skillsByCategory: SkillsByCategory = {
-    "Programming Languages": [
-      { name: "Java", level: 90 },
-      { name: "Python", level: 85 },
-      { name: "JavaScript", level: 80 },
-      { name: "C", level: 75 },
-      { name: "C++", level: 70 },
-      { name: "C#", level: 65 }
-    ],
-    "Web Technologies": [
-      { name: "React", level: 85 },
-      { name: "Node.js", level: 80 },
-      { name: "HTML5", level: 90 },
-      { name: "CSS3", level: 85 },
-      { name: "Django", level: 70 }
-    ],
-    "Databases & Tools": [
-      { name: "SQL", level: 85 },
-      { name: "MySQL", level: 80 },
-      { name: "Git", level: 90 }
-    ]
-  };
+    export const skills = [
+        { name: "JAVA", icon: "java", category: "Languages" },
+        { name: "PYTHON", icon: "python", category: "Languages" },
+        { name: "JAVASCRIPT", icon: "javascript", category: "Languages" },
+        { name: "TYPESCRIPT", icon: "typescript", category: "Languages" },
+        { name: "REACT", icon: "react", category: "Frontend" },
+        { name: "NODEJS", icon: "nodejs", category: "Backend" },
+        { name: "C", icon: "c", category: "Languages" },
+        { name: "SQL", icon: "sql", category: "Database" },
+        { name: "GIT", icon: "git", category: "Tools" },
+        { name: "C++", icon: "cplusplus", category: "Languages" },
+        { name: "C#", icon: "csharp", category: "Languages" },
+        { name: "HTML5", icon: "html5", category: "Frontend" },
+        { name: "CSS3", icon: "css3", category: "Frontend" },
+        { name: "DJANGO", icon: "django", category: "Backend" },
+        { name: "MYSQL", icon: "mysql", category: "Database" },
+        { name: "TAILWIND", icon: "tailwind", category: "Frontend" }
+    ];
   
   // Social links
   export const socialLinks = {

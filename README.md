@@ -1,24 +1,43 @@
 # Moses Kayuni Portfolio
 
-A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+A modern, responsive portfolio website showcasing my skills, projects, and professional experience as a Software Developer and Data Engineer.
+
+## About This Portfolio
+
+This portfolio is built with modern web technologies to provide a clean, professional showcase of my work. It features a responsive design that works across all devices, with both light and dark mode options for user preference.
 
 ## Features
 
-- **Responsive Design**: Optimized for all device sizes
+- **Responsive Design**: Optimized for all device sizes from mobile to desktop
 - **Dark/Light Mode**: Theme toggle with system preference detection
-- **Type-Safe**: Built with TypeScript for better developer experience
-- **SEO Optimized**: Metadata configuration for better search engine performance
+- **Project Showcase**: Highlighting selected public projects with detailed descriptions
+- **Interactive Elements**: Contact form, map integration, and dynamic skills display
+- **Professional Experience**: Timeline of my career journey and achievements
+- **SEO Optimized**: Metadata configuration for better search engine visibility
 - **Fast Performance**: Built on Next.js for optimized loading and rendering
-- **Modern UI**: Clean, professional design with Tailwind CSS
 
 ## Technologies Used
 
 - [Next.js](https://nextjs.org/) - React framework for production
-- [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [next-themes](https://github.com/pacocoursey/next-themes) - Dark mode/theming
-- [React Icons](https://react-icons.github.io/react-icons/) - Icon library
-- [Framer Motion](https://www.framer.com/motion/) - Animation library
+- [React Icons](https://react-icons.github.io/react-icons/) - Comprehensive icon library
+- [next-themes](https://github.com/pacocoursey/next-themes) - Theme management
+- [Google Maps API](https://developers.google.com/maps) - Location visualization
+
+## Project Structure
+
+```
+src/
+├── app/                  # Page routes using App Router
+├── components/           # Reusable UI components
+│   ├── about/            # About page components
+│   ├── contact/          # Contact form and map
+│   ├── layout/           # Header, footer, theme toggle
+│   └── projects/         # Project cards and filters
+├── lib/                  # Data and utilities
+└── styles/               # Global styling
+```
 
 ## Getting Started
 
@@ -31,51 +50,32 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/Mkayuni/portfolio.git
    cd portfolio
    ```
 
 2. Install dependencies:
    ```bash
    npm install
-   # or
-   yarn
    ```
 
 3. Run the development server:
    ```bash
    npm run dev
-   # or
-   yarn dev
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Project Structure
+## Available for Work
 
-```
-src/
-├── app/                  # App router pages
-├── components/           # Reusable components
-├── lib/                  # Utilities and data
-├── styles/               # Global styles
-└── types/                # TypeScript type definitions
-```
+I'm currently available for work and collaborations. If you have a project that could use my skills, let's talk!
 
-## Deployment
+## Contact
 
-This project can be easily deployed to Vercel, Netlify, or any other platform that supports Next.js.
-
-```bash
-npm run build
-# or
-yarn build
-```
+- Email: [Kayunilow11@gmail.com](mailto:Kayunilow11@gmail.com)
+- LinkedIn: [Moses Kayuni](https://www.linkedin.com/in/moses-kayuni-7915709b/)
+- GitHub: [Mkayuni](https://github.com/Mkayuni)
 
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## Author
-
-Moses Kayuni - [GitHub](https://github.com/Mkayuni) - [LinkedIn](https://www.linkedin.com/in/moses-kayuni-7915709b/)
