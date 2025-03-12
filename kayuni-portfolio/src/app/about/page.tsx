@@ -121,7 +121,7 @@ export default function AboutPage() {
             <div className="w-full lg:w-2/5">
               <div className="relative w-full max-w-md mx-auto aspect-[3/4] rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/images/profile-about.jpg"
+                  src="/images/profile-about.webp"
                   alt="Moses Kayuni"
                   fill
                   className="object-cover"

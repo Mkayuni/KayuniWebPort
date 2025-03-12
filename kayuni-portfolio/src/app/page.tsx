@@ -79,7 +79,7 @@ export default function Home() {
             <div className="w-full lg:w-1/2 relative">
               <div className="aspect-square max-w-md mx-auto relative rounded-full overflow-hidden border-4 border-primary/20">
                 <Image
-                  src="/images/profile.jpg"
+                  src="/images/profile.webp"
                   alt="Moses Kayuni"
                   fill
                   priority
