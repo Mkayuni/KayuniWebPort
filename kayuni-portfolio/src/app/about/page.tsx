@@ -17,7 +17,7 @@ export default function AboutPage() {
     {
       degree: "MS in Computer Science",
       institution: "Western Kentucky University",
-      period: "2022 - Present",
+      period: "2023 - Present",
       description: "Focusing on advanced algorithms, machine learning, and software engineering practices.",
       location: "Bowling Green, KY"
     },
